@@ -1,286 +1,106 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-.cabeçalho{
-    background: #BBBBBB;
-    padding: 20px 0;
-}
-.caixa_cabecalho{
-    width: 1200px;
-    position: relative;
-    margin: 0 auto;
-}
 
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0px;
-}
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-nav a{
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-    text-decoration: none;
-    margin: 30px;
-}
- nav a:hover{
-     color: rgb(144, 142, 144);
-     text-decoration: underline;
- }
 
- /* header */
-/* inicio do CSS da pagina index ############################################# */
-
-.banner{
+header{
     width: 100%;
-    height: 500px;
+    height: 920px;
+    background-image: url(forest-fall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-/* Comeco da secao principal, onde escrevemos sobre
-a barbearia alura */
-
-.principal{
-    padding: 3em 0;
-    background:rgb(227, 240, 248);
-    
-}
-
-.principal_conteudo{
-    width: 940px;
-    margin: 0 auto ;
+nav{
+    color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    padding: 25px;
 }
 
 
-.titulo_principal{
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+
+.reserva {
+    font-size: 40px;
     text-align: center;
-    font-size: 3em; /*Dobro do tamanho da fonte padrao (16 px) do CSS da pagina */
-    margin: 0 0 1em; /*A margem para baixo seja na mesma porprocao */
-    clear: left; /*estamos lipando os efeitos do float em outras linhas*/
-}
-
-.principal p{
-    margin: 0 0 1em;/*margem para baixo*/
-    font-size: 1.5em;
-}
-
-.principal strong{
-    font-weight: bold;
-}
-
-.principal em{
-    font-style: italic;
-}
-/*Fim da secao sobre a Barbearia Alura*/
-
-
- /*beneficios*/
-
-.beneficios{
-    padding: 3em 0;
-    background: rgb(164, 208, 251);
-    /*width: 940px;
-    margin: 0 auto;*/
-}
-
-.banner-beneficios{
-    width: 50%;
-    height: 350px;
-    opacity: 1;/*opacidade do banner*/
-    transition: 400ms;/*velo da opacidade 1 para 0.5 em hover*/
-}
-.banner-beneficios:hover{
-    opacity: 0.5;
-}
-.conteudo-beneficios{
-    width: 640px;
-    margin: 0px auto;/*margnes externas 0px em cima e embaixo
-    auto aignifica que as margens esquerda e diretas setao de tal forma que
-    elas vao centralizar o conteudo na pagina*/
-}
-
-.lista-beneficios{
-    width: 50%; /*quanto maior a largura, mas coisa da para excrever sem precisar quebrar linha*/
-    display: inline-block;
-    vertical-align: top;
-}
-
-.itens{
-    line-height: 2em;
-    font-size: 1.5em;
-}
-
-.itens:before{ /*Pseudo elemento que ira ser criado na pagina pelo CSS*/
-    content: "✁";
-}
-.itens:after{/*Pseudo elemento que ira ser criado na pagina pelo CSS*/
-    content: "✔";
-}
-
-.itens:first-child{/*pela o primeiro elemento que tem a class="itens"*/
-    font-weight: bold;
-}
-.img_utensilios{
-    width: 120px;
-    float: left;/*aqui estamos fazendo o elemento flutuar sobre o que tiver em volta dele, sito eh
-                ele deixa que todo conteudo fique entorno dele mas nada sob ou em baixo dele*/
-    clear: left; /*estamos lipando os efeitos do float em outras linhas*/
-    margin: 0 20px 20px 0;
-}
-/*fim beneficios*/
-
-
-/* CSS PARA A MAPA*/
-.mapa{
-    padding: 3em 0;
-    background: linear-gradient(rgb(227, 240, 248),rgb(164, 208, 251) );
-}
-
-.mapa p{
-    margin: 0 0 2em;
-    text-align:  center;
-    font-size: 1.5em;
-}
-
-.mapa_conteudo{
-    width: 940px;
-    margin: 0 auto;
-}
-/**/
-
-/*CSS para o video no final da pagina index*/
-.video{
-    width: 560px;
-    margin: 2em auto
-}
-
-/* fim do CSS da pagina index #############################*/
-
-
-
-
-
-
-
-
-
-
-.produtos{
-    width: 1000px;
-    margin: 0 auto;
-    padding: 60px 0px
+    color: rgba(255, 255, 255, 0.856);
+    padding: 10%;
 
 }
-.produtos li{
-    display: inline-block;
+/*################# cabeçalho!!!!!! ####################*/
+
+
+.section_urso_gordo{
+    width: 100%;
+    height: 600px;
+    background-image: url(urso-gordo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urso-gordo{
     text-align: center;
-    margin: 0 2.5%;
-    width: 27%;
-    vertical-align: top;
-    box-sizing: border-box;
-    border: solid black 3px;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.produtos h2 {
+    color: rgba(255, 255, 255, 0.911);
     font-size: 30px;
-    font-weight: bold;
+    width: 50%;
+    margin: 0 50% 0 0;
+    padding: 40px;
 }
 
-.produtos li:hover {
-    border-color: blueviolet;
-}
-
-.produtos li:hover h2{
-    font-size: 35px;
-}
-.produtos li:active{
-    border-color: cyan;
-}
-
-.produto-texto{
-    font-size: 20px;
-}
-.produto-preco{
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0 0;
+.section_ursos{
+    width: 100%;
+    height: 600px;
+    background-image: url(ursos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
 }
 
 footer{
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
+    background-color:#888688;
 }
 
-.copyrigth{
-    color: white;
-    font-size: 13px;
-    margin: 20px;
-}
-
-main{
-    
-}
-
-/*################### página de contato  CSS ############*/
-form{
-    margin: 40px 90px;
-}
-
-form label, form legend, form select{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-.input-padrao{
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
+.footer_logos{
     width: 50%;
 }
-.checkbox{
-    margin: 20px 0;
+/*bear logo*/
+.bear-block{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.foot_bear{
+    height: 40px;
 }
 
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    font-size: 20px;
-    background-color: rgb(250, 161, 18);
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    transition: 0.5s all;
-    cursor: pointer;
+.bear-block p{
+    margin: 0 10px;
+ }
+/*fim bear logo*/
+
+ .instagram-block{
+    display: flex;
+    align-items: center;
+    margin: 5px;
 }
-/*:hover eh o desing que vai ser usado quando a seta do maouse estiver em cima
-do campo delimitado pela classe 'enviar'*/
-.enviar:hover{
-    background-color: rgb(255, 102, 0);
-    transform: scale(1.03);
-    
+.insta-imagem{
+    height: 40px;
 }
 
-table{
-    margin: 20px 0 40px ;
-}
-
-thead{
-    background-color: rgb(110, 110, 110);
-    font-weight: bold;
-    color: white;
-}
-
-td, th{
-    border: 2px solid black;
-    padding: 10px;
-}
-
-
+.instagram-block p{
+    margin: 0 10px;
+ }
