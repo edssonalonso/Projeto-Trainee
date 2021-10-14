@@ -8,3 +8,28 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
+
+.navigation {
+    align-items: flex-end;
+    padding: 20px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul, li {                        /*Deixa na horizontal*/    
+    display: inline;
+}
+
+ul, li, a {                     /*Espaça o menu de navegação, comente para ver como fica sem*/
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+img {
+    height: 500px;
+    width: 640px;
+}
