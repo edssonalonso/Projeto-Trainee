@@ -6,7 +6,7 @@ body{
 header{
     width: 100%;
     height: 920px;
-    background-image: url(forest-fall.jpg);
+    background-image: url(../imagens/forest-fall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,11 +37,11 @@ li{
 }
 /*################# cabeçalho!!!!!! ####################*/
 
-
+/*###################### MAIN #####################*/
 .section_urso_gordo{
     width: 100%;
     height: 600px;
-    background-image: url(urso-gordo.jpg);
+    background-image: url(../imagens/urso-gordo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,11 +58,14 @@ li{
     margin: 0 50% 0 0;
     padding: 40px;
 }
+/*################ FIM MAIN #####################*/
 
+
+/*############### FOOTER ##################*/
 .section_ursos{
     width: 100%;
     height: 600px;
-    background-image: url(ursos.jpg);
+    background-image: url(../imagens/ursos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
