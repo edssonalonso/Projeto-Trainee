@@ -5,21 +5,31 @@ body{
 
 header{
     width: 100%;
-    height: 920px;
+    height: 100vh;
     background-image: url(../imagens/forest-fall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: rgba(255, 255, 255, 0.781);
 }
 nav{
-    color: rgba(255, 255, 255, 0.856);
     display: flex;
     justify-content: space-around;
     font-size: 22px;
     padding: 25px;
 }
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s;
+}
 
-
+a:visited {
+    color: rgba(255, 255, 255, 0.781);;
+}
 ul{
     display: flex;
 }
@@ -40,7 +50,7 @@ li{
 /*###################### MAIN #####################*/
 .section_urso_gordo{
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-image: url(../imagens/urso-gordo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,52 +68,49 @@ li{
     margin: 0 50% 0 0;
     padding: 40px;
 }
+
+
+
 /*################ FIM MAIN #####################*/
 
 
 /*############### FOOTER ##################*/
-.section_ursos{
+
+footer{
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-image: url(../imagens/ursos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     text-align: center;
-    color: rgba(255, 255, 255, 0.856);
+    position: relative;
 }
 
-footer{
-    background-color:#888688;
+.footer_ursos{
+    background-color: rgb(255, 255, 255);
+    color: #4b4c4d;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
 
-.footer_logos{
-    width: 50%;
+.footer_ursos nav{
+    padding: 0px;
+    color:#4b4c4d;
+    font-size: 15px;
 }
-/*bear logo*/
-.bear-block{
+
+.footer_ursos li{
     display: flex;
     align-items: center;
-    margin: 5px;
-}
-.foot_bear{
-    height: 40px;
 }
 
-.bear-block p{
-    margin: 0 10px;
- }
-/*fim bear logo*/
-
- .instagram-block{
-    display: flex;
-    align-items: center;
-    margin: 5px;
-}
-.insta-imagem{
-    height: 40px;
+.logo{
+    margin: 10px;
+    width: 4%;
 }
 
-.instagram-block p{
-    margin: 0 10px;
- }
+.logo_urso{
+    width: 3%;
+}
