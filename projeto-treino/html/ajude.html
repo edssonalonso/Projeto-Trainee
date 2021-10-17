@@ -6,9 +6,8 @@
 
         <title>Reserva Urso Gordo</title>
 
-        <link rel = "stylesheet" href="reset.css">
-        
-        <link rel="stylesheet" href="style.css">
+        <link rel = "stylesheet" href="../css/ajuda.css">
+        <link rel="stylesheet" href="../css/ajuda.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,5 +15,124 @@
 
     </head>
 
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li><a href="urso_gordo.html">Urso Gordo</a></li>
+                    <li> <a href="reserva.html"> Reserva </a></li>
+                    <li> <a href="ajude.html"> Ajuda </a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="introducao">
+            <h2>Informações de contato e visita</h2>
+            <p>
+               Caso você saiba ou conheçaalgum urso gordo que precise de ajuda entre em contato conosco.
+               Nós do grupo urso gordo tambem queremos que voce, nosso apoiador, conheça os ursos e saiba como possa ajuda-los. 
+               Por isso disponibiizamos alguns horarios para que você possa visita-los, alem de aos finais de semana oferecer passeios pelo habitat dos ursos.
+               Em caso de visita a ONG, marque horario no campo indicado abaixo na pagina.
+
+            </p>
+        </div>
+
+        <section class="contato_presencial">
+            <p>
+                Em caso de visitas prenciais ao grupo se atente aos horarios de abertura ao publico
+            </p>
+            <div class="horarios">
+                <fieldset>
+                    <legend>Horarios de visitas</legend>
+
+                    <table>
+                        <thead>
+                            <th>Dia </th>
+                            <th>Horário </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Em semana</td>
+                                <td>13h - 18h</td>
+                            </tr>
+                            <tr>
+                                <td>Finais de semana</td>
+                                <td>10h - 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </fieldset>
+            </div>
+        </section>
+
+        <section class="formulario_visita">
+            <fieldset>
+                <legend>Formulario de visita</legend>
+
+                <select name="motivo_da_visita" id="motivo">
+                    <option>Motivo da visita</option>
+                    <option>apoiador</option>
+                    <option>excursão escolar</option>
+                    <option>visita em familia</option>
+                </select>
+
+                <label for="Nome">Nome completo</label>
+                <input type="text" required>
+
+                <label for="email">Email</label>
+                <input type="email" required placeholder="slaoq@outracoisa.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="number" required placeholder="(xx) xxxxx-xxxx">
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </section>
+
+        <section class="contato_online">
+                <form>
+                    <fieldset>
+                        <legend>Para contato online</legend>
+                        <div class="contato">
+                            <label for = "nome_completo">Nome completo</label>
+                            <input type="text"  required placeholder=" ">
+    
+                            <label for="email">Email</label>
+                             <input type="email" required placeholder="endereco@usp.br">
+    
+                            <label for="mensagem">Mensagem</label>
+                            <textarea cols="50" rows="10" required></textarea>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+        </section>
+
+        <footer>
+            <section class="section_copyright">
+                <div class="copyright">
+                    <p>Todos os direitos reservados
+                        Reserva Florestal Urso Gordo 2020
+                    </p>
+                </div>
+            </section>
+
+            <section class="footer_logos">
+                <div class="bear-block">
+                    <img class="foot_bear" src="../images/bear.png">
+                    <p>Reserva Florestal Urso Gordo</p>
+                </div>
+
+                <div class="instagram-block">
+                    <img class="insta-imagem" src="../images/instagram.png">
+                    <p>Siga o Urso Gordo no insta!</p>
+                </div>
+            </section>
+        </footer>
+
+    </body>
 
 </html>
