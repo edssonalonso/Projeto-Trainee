@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{}
+
+/* treco do cabeçalho*/
+header{
+    width: 100%;
+    height: 100px;
+    background-image: url(../imagens/forest-fall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header nav{}
+header nav ul{
+    display: flex;
+    margin: auto;
+    font-size: 22px;
+    padding: 25px;
+    list-style-type: none;
+}
+header nav ul li{
+    margin:15px;
+}
+header nav ul li a:link{
+    color:aliceblue;
+    text-decoration: none;
+}
+header nav ul li a:visited{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+/* treco da introdução*/
+.introducao{}
+.introducao h2{}
+.introducao p{}
+
+/* treco do contato presencial*/
+.contato_presencial{}
+.contato_presencial p{}
+.contato_presencial .horarios{}
+.contato_presencial .horarios fieldset{}
+.contato_presencial .horarios fieldset legend{}
+.contato_presencial .horarios fieldset table{}
+.contato_presencial .horarios fieldset table thead{}
+.contato_presencial .horarios fieldset table thead th{}
+.contato_presencial .horarios fieldset table tbody{}
+.contato_presencial .horarios fieldset table tbody tr{}
+.contato_presencial .horarios fieldset table tbody tr td{}
+
+.formulario_visita{}
+.formulario_visita fieldset{}
+.formulario_visita fieldset legend{}
+.formulario_visita fieldset select{}
+.formulario_visita fieldset select option{}
+.formulario_visita fieldset label{}
+.formulario_visita fieldset input{}
+
+/* treco contato online*/
+.contato_online{}
+.contato_online form{}
+.contato_online form fieldset{}
+.contato_online form fieldset legend{}
+.contato_online form fieldset .contato{}
+.contato_online form fieldset .contato label{}
+.contato_online form fieldset .contato input{}
+.contato_online form fieldset .contato textarea{}
+
+/* treco do footer*/
+footer{
+    background-color:#888688;
+}
+footer .section_copyright{}
+footer .section_copyright .copyright{}
+footer .section_copyright .copyright p{}
+footer .footer_logos{
+    width: 50%;
+}
+footer .footer_logos .bear-block{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+footer .footer_logos .bear-block .foot_bear{
+    height: 40px;
+}
+footer .footer_logos .bear-block p{
+    margin: 0 10px;
+} 
+footer .footer_logos .instagram-block{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+footer .footer_logos .instagram-block .insta-imagem{
+    height: 40px;
+}
+footer .footer_logos .instagram-block p{
+    margin: 0 10px;
+}
+
