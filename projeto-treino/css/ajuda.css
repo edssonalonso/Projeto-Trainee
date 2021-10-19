@@ -5,7 +5,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{}
+body{
+    font-family: 'Oswald', sans-serif;
+}
 
 /* treco do cabeçalho*/
 header{
@@ -74,34 +76,13 @@ header nav ul li a:visited{
 
 /* treco do footer*/
 footer{
-    background-color:#888688;
-}
-footer .section_copyright{}
-footer .section_copyright .copyright{}
-footer .section_copyright .copyright p{}
-footer .footer_logos{
-    width: 50%;
-}
-footer .footer_logos .bear-block{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/ursos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
     display: flex;
-    align-items: center;
-    margin: 5px;
+    align-items: flex-end;
 }
-footer .footer_logos .bear-block .foot_bear{
-    height: 40px;
-}
-footer .footer_logos .bear-block p{
-    margin: 0 10px;
-} 
-footer .footer_logos .instagram-block{
-    display: flex;
-    align-items: center;
-    margin: 5px;
-}
-footer .footer_logos .instagram-block .insta-imagem{
-    height: 40px;
-}
-footer .footer_logos .instagram-block p{
-    margin: 0 10px;
-}
-

@@ -84,33 +84,6 @@ footer{
     background-size: cover;
     background-position: bottom;
     text-align: center;
-    position: relative;
-}
-
-.footer_ursos{
-    background-color: rgb(255, 255, 255);
-    color: #4b4c4d;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-}
-
-.footer_ursos nav{
-    padding: 0px;
-    color:#4b4c4d;
-    font-size: 15px;
-}
-
-.footer_ursos li{
     display: flex;
-    align-items: center;
-}
-
-.logo{
-    margin: 10px;
-    width: 4%;
-}
-
-.logo_urso{
-    width: 3%;
+    align-items: flex-end;
 }
