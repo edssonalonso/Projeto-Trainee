@@ -34,7 +34,14 @@
     height: auto;
 }
 
+.section_copyright{
+    margin: 15px;
+}
+
 .logo_urso{
-    width: 15%;
+    margin: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
     height: auto;
 }

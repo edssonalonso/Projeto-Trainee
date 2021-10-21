@@ -11,12 +11,17 @@ header{
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.781);
+    transition: 4s;
 }
+header:hover{
+    transform: scale(1.05);
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     font-size: 22px;
-    padding: 25px;
+    padding: 50px 0;
 }
 nav a{
     text-decoration: none;
@@ -58,14 +63,17 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 4s;
 }
-
+.section_urso_gordo:hover{
+    transform: scale(1.1);
+}
 .urso-gordo{
     text-align: center;
-    color: rgba(255, 255, 255, 0.911);
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    width: 50%;
-    margin: 0 50% 0 0;
+    width: 40%;
+    margin: 0 45% 0 0;
     padding: 40px;
 }
 
@@ -85,5 +93,19 @@ footer{
     background-position: bottom;
     text-align: center;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
 }
+
+.footer_ursos{
+    align-self: flex-end;
+}
+
+.texto_footer{
+    align-self: center;
+    color: rgba(255, 255, 255, 0.911);
+    font-size: 30px;
+    width: 50%;
+    margin: 20%;
+}
+
