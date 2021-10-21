@@ -19,6 +19,12 @@ img#fundo {
     height: auto;
 }
  
+#sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 /* ul li a:hover{
     
 } */
@@ -60,3 +66,20 @@ h2{
     font-size: 1.5em;
     margin: 30px;
 } */
+
+#fundo{
+    background-image: url(../imagens/pexels-pixabay-414171.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.area{
+    display: flex;
+    
+}
+
+.text{
+    line-height: ;
+}
