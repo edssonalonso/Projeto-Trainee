@@ -1,0 +1,40 @@
+
+
+.footer_ursos{
+    background-color: rgb(255, 255, 255);
+    color: #4b4c4d;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_sociais, .nav_info{
+    padding: 0px;
+    color:#4b4c4d;
+    font-size: 15px;
+    display: flex;
+}
+
+
+.nav_sociais ul, .nav_info ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.nav_sociais li, .nav_info li{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+    max-width:25px;
+    max-height:25px;
+    width: auto;
+    height: auto;
+}
+
+.logo_urso{
+    width: 15%;
+    height: auto;
+}
