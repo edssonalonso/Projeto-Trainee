@@ -11,11 +11,8 @@ header{
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.781);
-    transition: 4s;
 }
-header:hover{
-    transform: scale(1.05);
-}
+
 
 nav{
     display: flex;
@@ -48,7 +45,11 @@ li{
     text-align: center;
     color: rgba(255, 255, 255, 0.856);
     padding: 10%;
+    transition: 4s;
+}
 
+.reserva:hover{
+    transform: scale(1.1);
 }
 /*################# cabeçalho!!!!!! ####################*/
 
@@ -63,11 +64,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 4s;
 }
-.section_urso_gordo:hover{
-    transform: scale(1.1);
-}
+
 .urso-gordo{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -75,9 +73,12 @@ li{
     width: 40%;
     margin: 0 45% 0 0;
     padding: 40px;
+    transition: 4s;
 }
 
-
+.urso-gordo:hover{
+    transform: scale(1.1);
+}
 
 /*################ FIM MAIN #####################*/
 
