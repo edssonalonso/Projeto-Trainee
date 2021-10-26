@@ -7,6 +7,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap);
 @import 'charset utf-8';
 
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
 section#sobre {
     color: white;
     position: center;
@@ -14,22 +18,72 @@ section#sobre {
     left: 600px;
 }
 
-
-
 #fundo{
     width: 100%;
     height: 100vh;
-    background-image: url(../imagens/pexels-pixabay-414171.jpg);
+    background-image: url(../imagens/road-snow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     text-align: center;
     display: flex;
     align-items: flex-end;
 
 }
 
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/pexels-pixabay-414171.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.781);
+}
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    padding: 50px 0;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    border: transparent rgba(255, 255, 255, 0.205) ;
+    background: rgba(255, 255, 255, 0.336);
+    border-radius: 8px;
+    border-width: thick;
+    border-collapse: collapse;
+    /* font-size: 25px; */
+    /* transition: all 0.5s; */
+}
+
+a:visited {
+    color: rgba(255, 255, 255, 0.781);;
+}
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+
+.reserva {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 10%;
+    /* transition: 4s; */
+}
+
+/* .reserva:hover{
+    transform: scale(1.1);
+} */
  
 #sobre{
     display: flex;
@@ -79,31 +133,20 @@ h2{
     margin: 30px;
 } */
 
-#fundo{
-    background-image: url(../imagens/pexels-pixabay-414171.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    
-}
-
 .area{
     display: flex;
     
 }
 
-.text{
-    line-height: ;
+/* .text{
+    line-height: ; */
 
  /*Footer*/
 
- footer{
+footer{
     width: 100%;
-    height: 100vh;
-    background-image: url(../imagens/road-snow.jpg);
+    /* height: 100vh; */
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
