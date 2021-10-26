@@ -20,12 +20,40 @@
     <body>
 
         <header>
+            <nav>
 
+                <!--<p class="esq">Reserva Urso Gordo</p>-->
+ 
+                 <ul>
+                     <li><a href="reserva.html">Reserva</a></li>
+                     <li><a href="urso_gordo.html">Urso Gordo</a></li>
+                     <li><a href="ajude.html">Ajude</a></li>
+                     <li><a href="inscreva-se.html">Inscreva-se</a></li>
+                     <li><a href="ursos.html">Ursos</a></li>
+                 </ul>
+ 
+             </nav>
+ 
+             
+
+            <div class="menu-icon">
+                <img src="imagens/menuT.png" alt="">
+            </div>
         </header>
 
 
         <main>
-
+            <form action="" method="post">
+                <label for="nome">Nome do Urso: </label>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="peso">Peso do Urso: </label>
+                <input type="number" name="peso" id="peso" min="500"><br>
+                <label for="dias">Quantidade de dias da Reserva: </label>
+                <input type="number" name="dias" id="dias" min="1"><br>
+                <label for="email">Email de contato: </label>
+                <input type="email" name="email" id="email"><br>
+                <input type="submit" value="Enviar">
+            </form>
         </main>
 
 
