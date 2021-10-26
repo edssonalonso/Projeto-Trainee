@@ -18,7 +18,7 @@ header{
     background-size: cover;
     background-position: center;
 }
-header nav{}
+
 header nav ul{
     display: flex;
     margin: auto;
@@ -76,13 +76,60 @@ header nav ul li a:visited{
 
 /* treco do footer*/
 footer{
-    width: 100%;
-    height: 100vh;
     background-image: url(../imagens/footer-ajude.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    text-align: center;
+}
+
+.footer_ursos{
+    
+    color:rgb(255, 255, 255);
+    width: 100%;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.nav_sociais, .nav_info, .nav_plus{
+    padding: 0px;
+    color:#f6f7f8;
+    font-size: 15px;
+    display: flex;
+}
+
+
+.nav_sociais ul, .nav_info ul, .nav_plus ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav_sociais li, .nav_info li, .nav_plus li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo{
+    margin: 10px;
+    max-width:25px;
+    max-height:25px;
+    width: auto;
+    height: auto;
+}
+
+.section_copyright{
+    margin: 15px;
+    float: right;
+}
+
+.section_copyright .copyright {
+    float: right;
+    align-content: center;
+}
+
+.logo_urso{
+    margin: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+
 }
