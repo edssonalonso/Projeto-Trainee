@@ -11,12 +11,34 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-section#sobre {
+section#sobre{
     color: white;
-    position: center;
+    position: top;
+    display: flex;
     top: 400px;
     left: 600px;
 }
+
+.reserva {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.856);
+    padding: 5%;
+}
+
+.historia{
+    color: white;
+    font-size: 1.5em;
+    padding: 0 15%;
+    text-align: left;/*???*/
+    justify-content: left;/*???*/
+    display: inline-block;
+}
+
+.historia h2{
+    font-size: 30px;
+}
+
 
 #fundo{
     width: 100%;
@@ -26,9 +48,9 @@ section#sobre {
     background-size: cover;
     background-position: center;
     text-align: center;
-    display: flex;
-    align-items: flex-end;
-
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
 }
 
 header{
@@ -63,7 +85,7 @@ nav a:hover{
 }
 
 a:visited {
-    color: rgba(255, 255, 255, 0.781);;
+    color: rgba(255, 255, 255, 0.781);
 }
 ul{
     display: flex;
@@ -73,23 +95,71 @@ li{
     margin: 0 15px;
 }
 
-.reserva {
-    font-size: 40px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.856);
-    padding: 10%;
-    /* transition: 4s; */
+h4{
+    font-size: 3em;
 }
 
-/* .reserva:hover{
-    transform: scale(1.1);
-} */
+#fundo h2{
+    font-size: 3em;
+    margin: 20px;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    font-size: 1.5em;
+    background: #000000dc;
+    color: rgba(255, 255, 255, 0.781);
+    /* font-size: 2em; */
+    border: transparent;
+    border-radius: 7px;
+    margin: 30px 0px;
+}
+
+button:hover {
+    background: #7d8486;
+}
+
  
 #sobre{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.area{
+    background: rgb(34, 32, 32);
+    /* width: 20vw;
+    height: 30vh; */
+    justify-content: center;
+    border-radius: 10px;
+    border: black transparent;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 10px;
+    margin-top: 20vh;
+    width: 20vw;
+    height: 50vh;
+}
+
+.num{
+    padding: 20px;
+    background: rgb(161, 161, 161);
+    border-radius: 12px;
+
+}
+
+.populacao{
+    background: rgb(34, 32, 32);
+    justify-content: center;
+    border-radius: 10px;
+    border: black transparent;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 10px;
+    margin-top: 20vh;
+    width: 20vw;
+    height: 50vh;
 }
 /* ul li a:hover{
     
@@ -133,13 +203,6 @@ h2{
     margin: 30px;
 } */
 
-.area{
-    display: flex;
-    
-}
-
-/* .text{
-    line-height: ; */
 
  /*Footer*/
 
