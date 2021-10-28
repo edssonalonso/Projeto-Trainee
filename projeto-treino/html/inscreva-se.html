@@ -20,9 +20,12 @@
     <body>
 
         <header>
-            <nav>
+            
+            <p class="esq">Reserva Urso Gordo</p>
 
-                <!--<p class="esq">Reserva Urso Gordo</p>-->
+            <nav id="nav-principal">
+
+                
  
                  <ul>
                      <li><a href="reserva.html">Reserva</a></li>
@@ -36,8 +39,8 @@
  
              
 
-            <div class="menu-icon">
-                <img src="imagens/menuT.png" alt="">
+            <div onclick="MostraNav()" class="menu-icon">
+                <img src="..\imagens\menuT.png" alt="">
             </div>
         </header>
 
@@ -110,7 +113,12 @@
 
         </footer>
 
-
+    <script>
+        function MostraNav(){
+            nav = document.getElementsById('nav-principal')
+            nav.classList.add('nav-responsiva')
+        }
+    </script>
     </body>
 
 </html>
