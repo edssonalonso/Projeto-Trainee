@@ -6,7 +6,7 @@ body{
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(../imagens/forest-fall.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/forest-fall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ li{
 .section_urso_gordo{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(../imagens/urso-gordo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/urso-gordo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,7 +88,7 @@ li{
 footer{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(../imagens/ursos.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/ursos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
