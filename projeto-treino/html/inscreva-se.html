@@ -39,8 +39,18 @@
  
              
 
-            <div onclick="MostraNav()" class="menu-icon">
+            <div onclick="MostrarNav()" class='menu-icon'>
+                
                 <img src="..\imagens\menuT.png" alt="">
+                <nav id="nav-responsiva">
+                    <ul>
+                        <li><a href="reserva.html">Reserva</a></li>
+                        <li><a href="urso_gordo.html">Urso Gordo</a></li>
+                        <li><a href="ajude.html">Ajude</a></li>
+                        <li><a href="inscreva-se.html">Inscreva-se</a></li>
+                        <li><a href="ursos.html">Ursos</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -122,13 +132,13 @@
             </section>
 
         </footer>
-
-    <script>
-       function MostraNav(){
-            var nav = document.getElementsById('nav-principal')
-            nav.className = 'nav-responsiva'
-        }
-    </script>
+        <script>
+            function MostrarNav(){
+                var nav = document.getElementById('nav-responsiva')
+                nav.className = 'lista-toggle'
+            }
+        </script>
+    
     </body>
 
 </html>

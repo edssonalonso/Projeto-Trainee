@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: rgba(0,0,0,0);
+    background-color: rgb(140, 200, 250);
     color: white;
     height: 10vh;
     display: flex;
@@ -26,21 +26,12 @@ nav{
     height: 100%;
     align-items: center;
 }
-/*//////////////////////////////////////////////////*/
-.nav-responsiva{
-    display: block;
-    height: 100px;
-}
 
-.nav-responsiva a{
-    text-align: center;
-}
-/*//////////////////////////////////////////////////*/
 .esq {
     font-size: 1.2rem;
     font-weight: 500;
 }
-/*//////////////////////////////////////////////////*/
+
 ul{
     display:flex;
     margin: 0;
@@ -62,13 +53,24 @@ a:hover {
     border-radius: 10px;
 }
 
-.menu-icon  {
+.menu-icon{
     height: 25px;
-    padding: 0px 15px 0px 15px;
-    background-color: #000;
+    padding: 0 15px;
+    cursor: pointer;
     display: none;
 }
-
+@media (max-width: 850px){
+    nav{
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-icon img{
+        height: 25px;
+        padding: 10px 15px;
+    }
+}
 .form {
     border: 5px solid rgb(214, 247, 247);
     border-radius: 35px;
@@ -130,14 +132,7 @@ input{
     }
 }
 
-@media (max-width: 850px){
-    nav{
-        display: none;
-    }
-    .menu-icon img {
-        display: block;
-    }
-}
+
 
 
 footer{
@@ -148,4 +143,12 @@ footer{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+}
+
+.lista-toggle{
+    flex-direction: column;
+    
+}
+.lista-toggle li a{
+    font-size: 15px;
 }
