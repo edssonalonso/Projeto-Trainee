@@ -5,17 +5,19 @@ body{
     background-image: url(../imagens/ursos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    background-color: rgb(140, 200, 250);
+    background-color: rgba(0,0,0,0);
     color: white;
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    position: sticky;
-    top: 0px;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 
 nav{
@@ -35,8 +37,6 @@ nav{
 }
 /*//////////////////////////////////////////////////*/
 .esq {
-    position: absolute;
-    left: 10px;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -62,13 +62,12 @@ a:hover {
     border-radius: 10px;
 }
 
-.menu-icon img {
+.menu-icon  {
     height: 25px;
     padding: 0px 15px 0px 15px;
-    display: none; 
-    cursor: pointer;
+    background-color: #000;
+    display: none;
 }
-
 
 .form {
     border: 5px solid rgb(214, 247, 247);
@@ -131,7 +130,7 @@ input{
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 850px){
     nav{
         display: none;
     }
