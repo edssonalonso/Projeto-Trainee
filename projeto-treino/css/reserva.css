@@ -77,11 +77,6 @@ nav a:hover{
     border: transparent rgba(255, 255, 255, 0.205) ;
     background: rgba(255, 255, 255, 0.336);
     border-radius: 8px;
-    border-width: thick;
-    border-collapse: collapse;
-    padding: 5px 10px;
-    /* font-size: 25px; */
-    /* transition: all 0.5s; */
 }
 
 a:visited {
@@ -117,6 +112,28 @@ button {
     color: rgba(255, 255, 255, 0.781);
     border: transparent;
     border-radius: 7px;
+}
+@media(min-width:1400){
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .area{
+        height: 1vw;
+        width: 1vw;
+    }
+    .area-centro{
+        height: 1vw;
+        width: 1vw;
+    }
+
+    button {
+        font-size: 1em;
+        height: 6vw;
+        width: 20vh;
+    }
 }
 
 @media(max-width:700px){
