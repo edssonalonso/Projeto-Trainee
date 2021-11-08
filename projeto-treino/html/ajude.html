@@ -40,39 +40,19 @@
             </p>
         </div>
 
-        <section class="contato_presencial">
-            <p>
-                Em caso de visitas prenciais ao grupo se atente aos horarios de abertura ao publico
-            </p>
-            <div class="horarios">
-                <fieldset>
-                    <legend>Horarios de visitas</legend>
-
-                    <table>
-                        <thead>
-                            <th>Dia </th>
-                            <th>Horário </th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Em semana</td>
-                                <td>13h - 18h</td>
-                            </tr>
-                            <tr>
-                                <td>Finais de semana</td>
-                                <td>10h - 20h</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </fieldset>
-            </div>
-        </section>
+        <div class="reflexo">
 
         <section class="formulario_visita">
-            <fieldset>
-                <legend>Formulario de visita</legend>
+            <form>
 
+            
+            <fieldset>
+                <h2>Formulario de visita</h2>
+
+                <div class="campos">
+
+                    <div class="campo-input">
+                <label >Motivo da visita</label>
                 <select name="motivo_da_visita" id="motivo">
                     <option>Motivo da visita</option>
                     <option>apoiador</option>
@@ -80,32 +60,72 @@
                     <option>visita em familia</option>
                 </select>
 
+                <label>Dia da visita</label>
+                <select name="dia_da_visita" id="dia">
+                    <option>Segunda 10h-17h</option>
+                    <option>Terça 10h-17h</option>
+                    <option>Quarta 10h-17h</option>
+                    <option>Quinta 10h-17h</option>
+                    <option>Sexta 10h-17h</option>
+                    <option>Sábado 13h-20h</option>
+                    <option>Domingo 12h-19h</option>
+                </select>
+            </div>
+
+            <div class="campo-input">
+
+            
                 <label for="Nome">Nome completo</label>
                 <input type="text" required>
+            </div>
+            <div class="campo-input">
 
+            
                 <label for="email">Email</label>
                 <input type="email" required placeholder="slaoq@outracoisa.com">
+            </div>
+            <div class="campo-input">
 
+            
                 <label for="telefone">Telefone</label>
                 <input type="number" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <span class="input-span">
+                <input class="enviar" type="submit" value="Submit">
+            </span>
 
-                <input type="submit" value="Submit">
+            </div>
+
             </fieldset>
+        </form>
         </section>
+        </div>
+
+        
 
         <section class="contato_online">
                 <form>
                     <fieldset>
-                        <legend>Para contato online</legend>
+                        <h2>Para contato online</h2>
                         <div class="contato">
+                        <div class="mesege">
                             <label for = "nome_completo">Nome completo</label>
                             <input type="text"  required placeholder=" ">
-    
+                        </div>
+
+                        <div class="mesege">
                             <label for="email">Email</label>
                              <input type="email" required placeholder="endereco@usp.br">
-    
+                        </div>
+
+                        <div class="mesege">
                             <label for="mensagem">Mensagem</label>
                             <textarea cols="50" rows="10" required></textarea>
+                        </div>
+
+                        <span class="input-span">
+                            <input class="enviar" type="submit" value="Submit">
+                        </span>
                         </div>
                     </fieldset>
                     

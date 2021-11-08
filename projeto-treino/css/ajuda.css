@@ -7,13 +7,14 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    height: 120vh;
 }
 
 /* treco do cabeçalho*/
 header{
     width: 100%;
     height: 100px;
-    background-image: url(../imagens/forest-fall.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/forest-fall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,9 +23,10 @@ header{
 header nav ul{
     display: flex;
     margin: auto;
-    font-size: 22px;
+    font-size: 30px;
     padding: 25px;
     list-style-type: none;
+    justify-content: space-between;
 }
 header nav ul li{
     margin:15px;
@@ -39,40 +41,146 @@ header nav ul li a:visited{
 }
 
 /* treco da introdução*/
-.introducao{}
-.introducao h2{}
-.introducao p{}
+.introducao{
+    background-image: url(../imagens/pexels-janko-ferlic-3634930.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 40%;
+
+}
+.introducao h2{
+    font-size: max(3vw,20px);
+    margin-bottom:60px ;
+
+}
+.introducao p{
+    font-size: max(1.7vw,20px);
+    width: 85%;
+    text-align: justify;
+}
+
+/*imagem reflexisada */
+
+.reflexo{
+    background-image: url(../imagens/forest-fall03.jpg);
+    background-size: cover;
+    
+    
+}
 
 /* treco do contato presencial*/
-.contato_presencial{}
-.contato_presencial p{}
-.contato_presencial .horarios{}
-.contato_presencial .horarios fieldset{}
-.contato_presencial .horarios fieldset legend{}
-.contato_presencial .horarios fieldset table{}
-.contato_presencial .horarios fieldset table thead{}
-.contato_presencial .horarios fieldset table thead th{}
-.contato_presencial .horarios fieldset table tbody{}
-.contato_presencial .horarios fieldset table tbody tr{}
-.contato_presencial .horarios fieldset table tbody tr td{}
 
-.formulario_visita{}
-.formulario_visita fieldset{}
-.formulario_visita fieldset legend{}
+
+.formulario_visita{
+    display: flex;
+    height: 80vh;
+    color: #fff;
+    align-items: center;
+}
+.formulario_visita form{
+    display: flex;
+    width: 40%;
+    height: 85%;
+    display: table;
+   
+    
+}
+.formulario_visita fieldset{
+    width: 100%;
+    border: 4px solid #fff;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+}
+.formulario_visita fieldset h2{
+    font-size: 2vw;
+    margin-bottom: 15px;
+}
+.campos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.campo-input{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+input,select{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+}
+.input-span{
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.enviar{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
 .formulario_visita fieldset select{}
 .formulario_visita fieldset select option{}
 .formulario_visita fieldset label{}
 .formulario_visita fieldset input{}
 
 /* treco contato online*/
-.contato_online{}
-.contato_online form{}
-.contato_online form fieldset{}
-.contato_online form fieldset legend{}
+.contato_online{
+    background-image:url(../imagens/forest-river.jpg) ;
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.contato_online form{
+    display: flex;
+    width: 30%;
+    height: 70%;
+    display: table;
+}
+.contato_online form fieldset{
+    width: 100%;
+    border: 4px solid #fff;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+}
+.mesege{
+    display: flex;
+    padding: 40px;
+}
+.contato_online form fieldset h2{
+    font-size: 2vw;
+}
 .contato_online form fieldset .contato{}
 .contato_online form fieldset .contato label{}
 .contato_online form fieldset .contato input{}
-.contato_online form fieldset .contato textarea{}
+.contato_online form fieldset .contato textarea{
+    border-radius: 25px;
+}
 
 /* treco do footer*/
 footer{
@@ -133,3 +241,5 @@ footer{
     display: flex;
 
 }
+
+
