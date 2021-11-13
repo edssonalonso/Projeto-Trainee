@@ -19,9 +19,9 @@
 
     <body>
 
-        <header>
+        <header id="cabecalho">
             
-            <p class="esq">Reserva Urso Gordo</p>
+            <p id="reserva-urso-gordo" class="esq">Reserva Urso Gordo</p>
 
             <nav id="nav-principal">
 
@@ -41,7 +41,7 @@
 
             <div onclick="MostrarNav()" class='menu-icon'>
                 
-                <img src="..\imagens\menuT.png" alt="">
+                <img id="icone" src="..\imagens\menuT.png" alt="">
                 <nav id="nav-responsiva">
                     <ul>
                         <li><a href="reserva.html">Reserva</a></li>
@@ -136,6 +136,12 @@
             function MostrarNav(){
                 var nav = document.getElementById('nav-responsiva')
                 nav.className = 'lista-toggle'
+                var p = document.getElementById('reserva-urso-gordo')
+                p.className = 'hidden_esq'
+                var icon = document.getElementById('icone')
+                icon.className = 'icone_responsivo'
+                var header = document.getElementById('cabecalho')
+                header.className = 'new_header'
             }
         </script>
     

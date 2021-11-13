@@ -146,9 +146,53 @@ footer{
 }
 
 .lista-toggle{
+    display: flex;   
+    width: 100%;
+    flex-direction: row;
+}
+
+.lista-toggle ul {
+    display: flex;
     flex-direction: column;
-    
+    position: relative;
+    top: -50px;
+    justify-content: center;
+    right: -210px;
+}
+
+.lista-toggle li {
+    padding: 8px;
+}
+
+.icone_responsivo{
+    position: relative;
+    top: -80px;
+    left: -40px;
+}
+
+.new_header{
+    background-color: #fff;
+    color: #000;
+    height: 200px;
+}
+
+.hidden_esq{
+    display: none;
 }
 .lista-toggle li a{
-    font-size: 15px;
+    font-size: 18px;
+    color: #000;
+    padding: 0px 50px;
+}
+
+.lista-toggle li:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;  
+}
+
+.lista-toggle li a:hover {
+    background-color: #000;
+    color: #fff;
+    margin-left: 10px;
 }
