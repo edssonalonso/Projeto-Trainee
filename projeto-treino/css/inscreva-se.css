@@ -168,6 +168,7 @@ footer{
     position: relative;
     top: -80px;
     left: -40px;
+    content: url(../imagens/cancel.png);
 }
 
 .new_header{
