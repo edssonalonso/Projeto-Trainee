@@ -22,7 +22,7 @@ section#sobre{
 }
 
 .reserva {
-    font-size: 5vh;
+    font-size: 8vh;
     text-align: center;
     color: rgba(255, 255, 255, 0.856);
     padding: 5%;
@@ -31,10 +31,11 @@ section#sobre{
 .historia{
     color: white;
     font-size: 3vh;
-    padding: 0 15%;
+    padding-left: 10%;
 }
 .historia h2{
     font-size: 4vh;
+    line-height: 1.3;
 }
 
 #fundo{
@@ -91,6 +92,7 @@ li{
 .historia{
     display: flex;
     flex-direction: column;
+    position:sticky;
     width: 80vw;
     height: 50vh;
     justify-content: space-around;
@@ -101,6 +103,7 @@ li{
     height: 15vh;
     justify-content: left;
     align-content: left;
+    line-height: 1.2;
 }
 
 button {
@@ -272,27 +275,35 @@ footer{
         height: 7vh;
         width: 25vh;
     }
+    header{
+        display:flexbox;
+        align-content:unset;
+    }
     .justificativa{
-        display: flex;
         width: 100%;
         height: 100%;
-        justify-content: left;
-        align-content: left;
+        /* display: block; */
+        margin-top: 5vh;
     }
     .justificativa p{
-        font-size: 4vw;
+        font-size: 3.2vh;
+        display: flex;
     }
     .texto{
         display: flex;
         width: 100%;
         height: 100%;
-        justify-content: left;
-        align-content: left;
     }
     .texto h2{
-        font-size: 5vw;
+        font-size: 4vh;
+    }
+    .reserva{
+        margin: 6vh 0;
     }
     .reserva p{
-        font-size: 7vw;
+        font-size: 8vh;
+    }
+    nav{
+        display: none;
     }
 }
