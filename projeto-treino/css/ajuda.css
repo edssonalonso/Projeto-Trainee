@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -10,49 +9,62 @@ body{
     height: 120vh;
 }
 
-/* treco do cabeçalho*/
+/* inicio do cabeçalho*/
+
 header{
     width: 100%;
-    height: 100px;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/forest-fall.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../imagens/baby_bear.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-header nav ul{
-    display: flex;
-    margin: auto;
-    font-size: 30px;
-    padding: 25px;
-    list-style-type: none;
-    justify-content: space-between;
-}
-header nav ul li{
-    margin:15px;
-}
-header nav ul li a:link{
-    color:aliceblue;
-    text-decoration: none;
-}
-header nav ul li a:visited{
-    color:aliceblue;
-    text-decoration: none;
-}
-
-/* treco da introdução*/
-.introducao{
-    background-image: url(../imagens/pexels-janko-ferlic-3634930.jpg);
-    background-size: cover;
-    height: 70vh;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.781);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: 40%;
-
 }
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 100%;
+    padding: 50px;
+}
+
+nav p{
+    align-self: start;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+}
+nav a:hover{
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+    list-style-type: none;
+}
+/* treco da introdução*/
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
 .introducao h2{
     font-size: max(3vw,20px);
     margin-bottom:60px ;
@@ -60,17 +72,19 @@ header nav ul li a:visited{
 }
 .introducao p{
     font-size: max(1.7vw,20px);
-    width: 85%;
+    width: 70%;
     text-align: justify;
 }
+/*fim cabeçalho*/
 
 /*imagem reflexisada */
 
 .reflexo{
-    background-image: url(../imagens/forest-fall03.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../imagens/forest-fall03.jpg); 
     background-size: cover;
-    
-    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 
 /* treco do contato presencial*/
@@ -145,7 +159,7 @@ input,select{
 
 /* treco contato online*/
 .contato_online{
-    background-image:url(../imagens/forest-river.jpg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../imagens/forest-river.jpg); 
     background-size: cover;
     height: 90vh;
     color: #fff;
@@ -188,7 +202,6 @@ footer{
 }
 
 .footer_ursos{
-    
     color:rgb(255, 255, 255);
     width: 100%;
     display: flex;
@@ -233,7 +246,6 @@ footer{
 }
 
 .logo_urso{
-    margin: 10px;
     max-width: 50px;
     max-height: 50px;
     width: auto;

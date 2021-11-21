@@ -41,7 +41,8 @@ section#sobre{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-image: url(../imagens/road-snow.jpg);
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../imagens/road-snow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,7 +54,7 @@ section#sobre{
 header{
     width: 100%;
     height: 100vh;
-    background-image: url(../imagens/pexels-pixabay-414171.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../imagens/pexels-pixabay-414171.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -94,10 +95,11 @@ li{
     width: 80vw;
     height: 50vh;
     justify-content: space-around;
+    align-items: center;
 }
 .justificativa{
     display: flex;
-    width: 40vw;
+    width: 65vw;
     height: 15vh;
     justify-content: left;
     align-content: left;

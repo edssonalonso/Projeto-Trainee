@@ -1,8 +1,8 @@
 
 
 .footer_ursos{
-    background-color: rgb(255, 255, 255);
-    color: #4b4c4d;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -10,8 +10,8 @@
 
 .nav_sociais, .nav_info{
     padding: 0px;
-    color:#4b4c4d;
-    font-size: 15px;
+    color:#fffffffd;
+    font-size: 18px;
     display: flex;
 }
 
@@ -19,7 +19,7 @@
 .nav_sociais ul, .nav_info ul{
     display: flex;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .nav_sociais li, .nav_info li{
@@ -36,6 +36,7 @@
 
 .section_copyright{
     margin: 15px;
+    font-size: 18px;
 }
 
 .logo_urso{
