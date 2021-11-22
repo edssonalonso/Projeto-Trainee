@@ -52,6 +52,13 @@ a:hover {
     border-radius: 10px;
 }
 
+.titulo_urso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu-icon{
     height: 25px;
     padding: 0 15px;
