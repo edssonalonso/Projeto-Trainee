@@ -40,7 +40,7 @@ section#sobre{
 
 #fundo{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../imagens/road-snow.jpg);
@@ -71,13 +71,15 @@ nav{
 nav a{
     text-decoration: none;
     color: #fff;
+    padding: 5px 10px;
 }
 
 nav a:hover{
     color: white;
     border: transparent rgba(255, 255, 255, 0.205) ;
     background: rgba(255, 255, 255, 0.336);
-    border-radius: 8px;
+    opacity: 1;
+    border-radius: 5px;
 }
 
 a:visited {
@@ -86,10 +88,6 @@ a:visited {
 ul{
     display: flex;
 }
-
-li{
-    margin: 0 15px;
-}
 .historia{
     display: flex;
     flex-direction: column;
@@ -97,11 +95,10 @@ li{
     width: 80vw;
     height: 50vh;
     justify-content: space-around;
-    align-items: center;
 }
 .justificativa{
     display: flex;
-    width: 65vw;
+    width: 40vw;
     height: 15vh;
     justify-content: left;
     align-content: left;
@@ -228,7 +225,14 @@ footer{
         width: 35vh;
     }
 }
-
+@media(max-width:750px){
+    nav{
+        display: none;
+    }
+    .reserva{
+        margin: 6vh 0;
+    }
+}
 
 
 @media(max-width:700px){
@@ -277,10 +281,6 @@ footer{
         height: 7vh;
         width: 25vh;
     }
-    header{
-        display:flexbox;
-        align-content:unset;
-    }
     .justificativa{
         width: 100%;
         height: 100%;
@@ -299,13 +299,7 @@ footer{
     .texto h2{
         font-size: 4vh;
     }
-    .reserva{
-        margin: 6vh 0;
-    }
     .reserva p{
         font-size: 8vh;
-    }
-    nav{
-        display: none;
     }
 }
